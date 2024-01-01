@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.country{
+  min-width: 250px;
+}
+
+.state{
+  min-width: 150px;
+}
+.city{
+  min-width: 100px;
+}
+
+select{
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 35px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.result{
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.highlighted{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.fade{
+  color: #888;
+}
+
+.selectors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
